@@ -13,3 +13,9 @@
 - See [August Ash 1.6](https://github.com/augustash/magento2-frontools-1.6) or [August Ash 1.7](https://github.com/augustash/magento2-frontools-1.7) for specific application and use
 
 ## Doing it directly within the Theme itself.
+- **All of the following will need to be done within the root of the theme itself. For instance `src/app/design/frontend/CLIENT/THEME/`**
+- Include the `config` directory along with it's contents.
+- Follow the `README.md` within the `config/dev` directory for browsersync setup.
+- Include the `gulpfile.js`, `package.json` and `stylelint.config.js` within the root of the theme
+- Run `npm install` to install needed dependencies.
+- Run `gulp` to watch for styling changes.

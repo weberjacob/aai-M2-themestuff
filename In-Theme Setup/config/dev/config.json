@@ -1,6 +1,6 @@
 {
   "name": "ash",
-  "description": "A theme based on Cyle.",
+  "description": "A theme based on Josh.",
   "browserSync": {
     "enabled" : true,
     "proxy" : "http://localhost",
@@ -9,7 +9,7 @@
     "notify" : false
   },
   "css": {
-    "dest": "assets/css",
+    "dest": "../../../../../pub/static/frontend/CLIENT/THEMENAME/css",
     "src": [
       "styles/**/*.scss"
     ]
@@ -20,11 +20,5 @@
       "js/**/*.js"
     ],
     "vendorDest": "assets/js/vendor"
-  },
-  "images": {
-    "src": [
-      "assets/images/**/*"
-    ],
-    "dest": "assets/images/"
   }
 }

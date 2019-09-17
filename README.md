@@ -17,5 +17,6 @@
 - Include the `config` directory along with it's contents.
 - Follow the `README.md` within the `config/dev` directory for browsersync setup.
 - Include the `gulpfile.js`, `package.json` and `stylelint.config.js` within the root of the theme
+- Update your `config.json` file with the appropriate path for the CSS `dest`
 - Run `npm install` to install needed dependencies.
 - Run `gulp` to watch for styling changes.

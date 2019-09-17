@@ -10,4 +10,6 @@
   - remove `CSS Lint` from within `destWatcher.on('change')` -> ~ line 178
   - See `watch.js` in `Frontool Setup` for reference.
 
+- See [August Ash 1.6](https://github.com/augustash/magento2-frontools-1.6) or [August Ash 1.7](https://github.com/augustash/magento2-frontools-1.7) for specific application and use
+
 ## Doing it directly within the Theme itself.

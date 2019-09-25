@@ -1,6 +1,6 @@
 {
-  "name": "ash",
-  "description": "A theme based on Josh.",
+  "name": "luma-child",
+  "description": "A subtheme of Magento/luma.",
   "browserSync": {
     "enabled" : true,
     "proxy" : "http://localhost",
@@ -9,7 +9,7 @@
     "notify" : false
   },
   "css": {
-    "dest": "../../../../../pub/static/frontend/CLIENT/THEMENAME/css",
+    "dest": "./web/css",
     "src": [
       "styles/**/*.scss"
     ]
